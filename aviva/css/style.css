@@ -37,7 +37,6 @@ nav ul {
 
 nav li {
 	display: inline-block;
-	margin-right: 10px;
 }
 
 li {
@@ -51,6 +50,10 @@ li:nth-last-child(1) {
 li a {
 	color: #fff;
 	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
 }
 /* header end */
 
