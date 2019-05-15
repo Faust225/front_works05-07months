@@ -1,0 +1,137 @@
+html {
+    background: #ebebeb;
+}
+
+.all-content {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+/* heder start */
+
+header {
+    width: 600px;
+    background: #f9f9f9;
+    padding: 20px 0;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+header img {
+    width: 250px;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    padding: 15px;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+/* Header end*/
+
+section {
+    width: 600px;
+    background: #f9f9f9;
+    padding: 20px 0;
+    margin: 5px 0;
+}
+/* about start */
+
+.about p {
+
+    text-align: justify;
+    padding: 10px 30px;
+    font-size: 18px;
+}
+
+.max2-img {
+    width: 90%;
+    height: 270px;
+    padding: 15px 0;
+
+}
+/* about end */
+
+h1 {
+    padding: 15px 0;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 20px;
+    padding: 20px 0;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+span {
+    font-weight: normal;
+}
+
+/* products start */
+
+.products-style img {
+    width: 150px;
+    height: 150px;
+}
+
+.product {
+    padding: 15px 0;
+}
+/* products end */
+
+/* contacts start */
+.contact ul {
+    display: inline-block;
+    padding-top: 15px;
+    padding-left: 70px;
+
+}
+
+.contact li {
+    list-style: disc;
+    font-size: 16px;
+    padding: 0;
+}
+
+.maxima-ul-left {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.contact img {
+    height: 600px;
+    min-width: 90%;
+    padding: 20px 0;
+}
+/* contacts end */
+
+footer {
+    padding: 15px;
+    color: #555555;
+    font-family: "Raleway";
+}
