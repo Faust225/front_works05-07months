@@ -185,5 +185,8 @@ input[type="submit"] {
 /* contacts end */
 
 footer {
-
+	text-align: center;
+	padding: 15px;
+	background: #DBDEE5;
+	color: #fff;
 }
