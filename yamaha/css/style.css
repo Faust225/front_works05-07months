@@ -1,0 +1,181 @@
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+header {
+	background: #dbdee5;
+}
+
+header img {
+	max-height: 45px;
+}
+
+.navigation {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 75%;
+	margin: 0 auto;
+	padding: 5px 0;
+}
+
+nav a {
+	text-decoration: none;
+	color: #ee8089;
+	margin-right: 20px;
+	font-size: 16px;
+}
+
+nav a:nth-last-child(1) {
+	margin-right: 0;
+}
+
+.biker {
+	background-image: url(images/bike-rider.jpg);
+	object-fit: cover;
+	max-height: 100%;
+	position: relative;
+	height: 500px;
+	background-position: center;
+	background-size: cover;
+}
+
+.biker h1 {
+	position: absolute;
+	background-color: rgba(243,11,22, 0.5);
+	padding: 10px;
+	font-size: 32px;
+	font-weight: bold;
+	bottom: 0;
+	right: 0;
+	margin-right: 15%;
+	margin-bottom: 21px;
+}
+
+.bikes {
+	padding: 10px 0;
+	width: 75%;
+	margin: 0 auto;
+}
+
+.bikes h2 {
+	font-size: 24px;
+	font-weight: bold;
+	color: #f85059;
+	line-height: 1.15;
+	margin: 20px 0;
+}
+
+.bikes h2 span {
+	color: #f30b16;
+}
+
+.bike-gallery {
+	display: flex;
+	justify-content: center;
+}
+
+.bike {
+	padding: 10px;
+	background-color: #f3f6f8;
+	box-sizing: border-box;
+	text-align: center;	
+	object-fit: contain;
+	margin-right: 10px;
+	border: 1px solid #DBDEE5;
+}
+
+.bike img {
+	width: 170px;
+	padding: 10px;
+}
+
+.bike:nth-last-child(1) {
+	margin-right: 0;
+}
+
+.bike h3 {
+	font-size: 19.2px;
+	font-weight: bold;
+}
+
+.bike h3:before {
+	content: "\2666";
+	padding-right: 10px;
+}
+
+.bike p {
+	font-size: 14.4px;
+	color: #444;
+	line-height: 1.15;
+	text-align: justify;
+	margin: 14.4px 0;
+}
+
+/* contacts start */
+
+.contacts {
+	width: 75%;
+	margin: 0 auto;
+	padding: 10px 0;
+}
+
+.contacts h2 {
+	font-size: 24px;
+	font-weight: bold;
+	color: #f85059;
+	line-height: 1.15;
+	margin: 20px 0;
+}
+
+.contacts h2 span {
+	color: #f30b16;
+}
+
+.form-and-map {
+	display: flex;
+	justify-content: center;
+}
+
+.form-and-map img {
+	max-width: 50%;
+	background-position: center;
+	background-size: cover;
+	object-fit: cover;
+	height: 475px;
+}
+
+.form-and-map form {
+	width: 50%;
+}
+
+input:not([type="submit"]) {
+   box-sizing: border-box;
+   min-width: 100%;
+   max-width: 100%;
+   padding: 5px;
+   margin-bottom: 10px;
+   font-size: 16px;
+}
+
+textarea {
+	min-width: 100%;
+	max-width: 100%;
+	box-sizing: border-box;
+	margin-bottom: 10px;
+	min-height: 100px;
+	font-size: 16px;
+}
+
+input[type="submit"] {
+	font-size: 18px;
+	background: #fff;
+	border: 1px solid #F30B16; 
+	padding: 10px;
+}
+
+/* contacts end */
+
+footer {
+
+}

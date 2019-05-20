@@ -1,0 +1,62 @@
+header {
+	width: 60%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+img {
+	height: 70px;
+	width: 70px;
+}
+
+ul {
+	display: flex;
+	align-items: center;
+}
+
+li {
+	display: inline;
+	padding-right: 10px;
+}
+
+.banana-bg {
+	background-image: url(images/banana.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding-top: 15px;
+}
+
+.about {
+	width: 60%;
+	margin: 0 auto;
+	background: #fff;
+	padding: 25px 15px;
+	border-radius: 5px;
+}
+
+.about-content img {
+	float: left;
+	width: 50%;
+	height: 40vh;
+	padding-right: 10px;
+	padding-bottom: 5px;
+}
+
+p {
+	text-align: left;
+	padding-bottom: 10px;
+}
+
+h1 {
+	font-size: 32px;
+	font-weight: bold;
+	padding: 15px 0;
+}
+
+footer {
+	text-align: center;
+	padding: 10px 0;
+	background: #fff;
+	margin-top: 1%;
+}
