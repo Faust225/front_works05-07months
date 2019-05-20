@@ -17,6 +17,7 @@ header img {
 	width: 75%;
 	margin: 0 auto;
 	padding: 5px 0;
+	min-width: 450px;
 }
 
 nav a {
@@ -30,6 +31,8 @@ nav a:nth-last-child(1) {
 	margin-right: 0;
 }
 
+/* biker section start */
+
 .biker {
 	background-image: url(images/bike-rider.jpg);
 	object-fit: cover;
@@ -38,6 +41,7 @@ nav a:nth-last-child(1) {
 	height: 500px;
 	background-position: center;
 	background-size: cover;
+	min-width: 580px;
 }
 
 .biker h1 {
@@ -51,6 +55,8 @@ nav a:nth-last-child(1) {
 	margin-right: 15%;
 	margin-bottom: 21px;
 }
+
+/* biker section end*/
 
 .bikes {
 	padding: 10px 0;
@@ -76,6 +82,7 @@ nav a:nth-last-child(1) {
 }
 
 .bike {
+	min-width: 100px;
 	padding: 10px;
 	background-color: #f3f6f8;
 	box-sizing: border-box;
@@ -115,6 +122,7 @@ nav a:nth-last-child(1) {
 /* contacts start */
 
 .contacts {
+	min-width: 500px;
 	width: 75%;
 	margin: 0 auto;
 	padding: 10px 0;
