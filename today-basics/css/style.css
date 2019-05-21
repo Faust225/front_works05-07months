@@ -1,0 +1,162 @@
+header {
+	background-color: #f66262;
+}
+
+nav a {
+	padding-right: 10px;
+}
+
+nav a:nth-last-child(1) {
+	padding-right: 0;
+}
+
+.header-elements {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 50%;
+	margin: 0 auto;
+}
+
+.header-elements img {
+	height: 100px;
+}
+
+ul {
+	list-style-type: disc;
+}
+
+ol {
+	list-style-type: decimal;
+}
+
+.task-3 {
+	font-family: arial;
+}
+
+.task-3 p:nth-last-child(1) {
+	color: green;
+}
+
+.task-3 p:nth-last-child(2) {
+	color: blue;
+}
+
+.task-3 p:first-child {
+	color: red;
+}
+
+/* Task 3 part 2 start */
+.task3-2 {
+	font-family: Comic Sans MS;
+}
+
+.task3-2 p {
+	margin-bottom: 10px;
+}
+
+.task3-2 p:nth-last-child(1) {
+	background-color: green;
+}
+
+.task3-2 p:nth-last-child(2) {
+	background-color: blue;
+}
+
+.task3-2 p:first-child {
+	background-color: red;
+}
+
+/* Articles start */
+
+article {
+	padding: 10px;
+	margin-bottom: 5px;
+	border: 1px solid blue;
+}
+
+h2 {
+	font-size: 26px;
+	font-weight: bold;
+	line-height: 1.15;
+}
+
+@media only screen and (min-width: 1250px) {
+  article {
+    display: inline-block;
+    width: 48%;
+  }
+}
+
+.task-6 {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+
+.eagle-header {
+	background-color: silver;
+	width: 100%;
+}
+
+
+.eagle-nav-pos {
+	display: flex;
+	justify-content: space-between;
+	width: 80%;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+.eagle-nav-pos nav {
+	display: inline-block;
+}
+
+.eagle-nav-pos a {
+	text-decoration: none;
+	color: black;
+}
+
+.eagle {
+	color: #fff;
+	background: #62f6bb;
+	width: 100%;
+	padding: 50px 0;
+}
+
+.eagle h2 {
+	padding: 20px 0;
+	font-weight: normal;
+}
+
+.eagle img {
+	border-radius: 50%;
+}
+
+footer {
+	background-color: black;
+	color: #fff;
+	padding: 50px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+footer h2 {
+	font-weight: normal;
+	line-height: 1.15;
+	padding-bottom: 15px;
+}
+
+footer a {
+	text-decoration: none;
+	background-color: white;
+	color: black;
+	margin: 10px auto;
+	padding: 10px 15px;
+	border-radius: 5px;
+
+}
+
+
