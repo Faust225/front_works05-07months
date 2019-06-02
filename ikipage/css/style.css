@@ -1,0 +1,205 @@
+header, .offers, .clever-offers, .special-offers {
+  background-color: #e2dedb;
+}
+
+.header-content {
+	text-align: right;
+}
+
+ /* */
+/* all wrappers*/
+.header-content, .offer-wrapper, .clever-wrapper, .special-wrapper {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.first-nav {
+	background-color: #f2f2f2;
+}
+
+.first-nav nav {
+	padding: 15px;
+}
+
+.first-nav nav a {
+	padding-right: 20px;
+	text-decoration: none;
+	color: #9c9c9c;
+}
+
+.second-nav {
+	background-color: #fff;
+}
+
+.second-nav nav {
+	padding: 15px;
+}
+
+.second-nav nav a {
+	padding-right: 20px;
+	text-decoration: none;
+	color: #000;
+	font-weight: bold;
+}
+
+/* Header end */
+
+.mySlides {display: none}
+
+/* Slideshow container */
+
+main {
+	position: relative;
+}
+
+.slideshow-container {
+	box-sizing: border-box;
+  max-width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next, .text {font-size: 11px}
+}
+
+/* Slider end */
+
+/* Offer section start */
+
+.offer-wrapper, .clever-wrapper, .special-wrapper {
+  background-color: #fff;
+  padding: 20px;
+}
+
+.offer-text, .clever-text {
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.special-text {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.offer-text h2, .clever-text h2, .special-text h2 {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin: 24px 0;
+  color: #312e2d; 
+}
+
+.offer-text a, .clever-text a {
+  margin: 24px 0;
+  color: #fff;
+  background-color: #008547;
+  padding:10px 18px;
+  font-weight: bold;
+  border-radius: 20px;
+}
+
+.offer-products {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.special-product {
+  width: 95%;
+  margin: 0 auto;
+}
+
+/* Offers end */ 
+
+
+.clever-products {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}

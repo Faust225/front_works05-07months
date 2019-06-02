@@ -63,11 +63,5 @@
 		<img src="css/images/map.png">
 	</div>
 </section>
-<footer>Copyright © Petras Slekys 2019. All rights reserved.</footer>
-	<!-- object fit in gallery and map
-	http://slekys.com/inst.pdf
-	http://slekys.com/php2/
-	http://slekys.com/ca2/#
-	paprasti darbai -->
 </body>
 </html>

@@ -1,0 +1,134 @@
+.header-content {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 80%;
+	margin: 0 auto;
+	padding: 20px 0;
+}
+
+.header-content h1 {
+	margin-right: 15px;
+}
+
+header {
+	background-color: rgb(238, 238, 238);
+}
+
+header h1 {
+	font-size: 32px;
+	font-weight: bold;
+	color: rgb(213, 85, 98);
+}
+
+nav a {
+	margin-right: 15px;
+	text-decoration: none;
+	color: rgb(213, 85, 98);
+}
+
+/* header and nav end */
+
+.about {
+	height: 30vh;
+}
+
+.about, .header-content, .pizza, .make-order, .contact-el {
+	width: 80%;
+	margin: 0 auto;
+	padding: 20px 0;
+}
+
+h2 {
+	font-size: 20px;
+	font-weight: bold;
+	color: rgb(213, 85, 98);
+	line-height: 1.5;
+}
+
+.about p {
+	padding: 10px 0;
+}
+
+/* about section end */
+
+.pizza-section {
+	background-color: rgb(238, 238, 238);
+	padding: 20px 0;
+}
+
+.pizza h2 {
+	padding-bottom: 15px;
+}
+
+.pizza-gallery {
+	display: flex;
+}
+
+.pizza-gal-el {
+	border: 1px solid black;
+	margin-right: 1vw;
+	padding: 20px 40px;
+}
+
+.pizza-gal-el h2 {
+	color: #000;
+}
+
+label {
+	display: block;
+}
+
+input:not([type="submit"]) {
+	width: 100%;
+	margin-bottom: 15px;
+	padding: 10px;
+}
+
+input[type="submit"] {
+	background-color: #fff;
+	border: 1px solid rgb(213, 85, 98);
+	padding: 10px;
+}
+
+.pizza-gal-el ul {
+	list-style-type: disc;
+	margin: 10px 20px 0 0;
+}
+
+/* order end */
+
+.contact-section {
+	background-color: rgb(238, 238, 238);
+	border-bottom: 1px solid silver;
+}
+
+.contact-el {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+th {
+	font-weight: bold;
+}
+
+td:nth-last-child(1) {
+	font-weight: bold;
+}
+
+td, th {
+	border: 1px solid black;
+}
+
+/* contact end */
+
+footer {
+	background-color: rgb(238, 238, 238);
+	text-align: center;
+	padding: 10px 0;
+}

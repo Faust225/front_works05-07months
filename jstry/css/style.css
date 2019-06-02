@@ -1,0 +1,231 @@
+
+.nav-wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+
+.header-wrapper {
+	display: flex;
+	justify-content: center;
+	background-color: #7fcbb6;
+	padding-top: 100px;
+	color: #fff;
+}
+
+.header-text h5 {
+	padding-right: 50px;
+}
+
+/* header end  */
+
+.form-section {
+	padding: 45px 0;
+}
+
+.form-section p,
+.statement p,
+.dog-home p:nth-last-child(2),
+.features p:nth-last-child(2),
+.section-heading,
+.contact p:nth-last-child(2) {
+	font-size: 32px;
+}
+
+.form-section p{
+	color: #8e898a;
+}
+
+.form-section span,
+.numb-el p:nth-last-child(2),
+.CAT-text p:nth-last-child(2) {
+	color: #e9a687; /* light orange */
+}
+
+.form-section label {
+	font-size: 12px;
+	color: #acd3c8;
+}
+
+.form-section input[type="text"] {
+	padding: 10px 0;
+	background-color: #efefef;
+	border: none;
+	width: 60%;
+	margin: 0 20px;
+	box-sizing: border-box;
+}
+
+.form-section input[type="submit"],
+.statement {
+	color: #fff;
+	background-color: #e9a687;
+}
+
+.form-section input[type="submit"] {
+	padding: 10px 20px;
+	border: none;
+}
+
+/* form section end */
+
+.statement,
+.dog-home,
+.features,
+.contact {
+	padding: 40px 0;
+}
+
+.dog-home,
+.section-heading {
+	color: #7cd9bf;
+}
+
+.dog-home p:nth-last-child(2) {
+	letter-spacing: 5px;
+}
+
+/* dog-home section end  */
+
+.numbers,
+.section-heading,
+.phone-and-headings {
+	background-color: #f0f0f0;
+}
+
+.numbers-wrapper {
+	display: flex;
+	justify-content: space-between;
+	padding: 30px 0;
+}
+
+.numb-el {
+	background-color: #fff;
+	padding: 50px 80px;
+}
+
+.numb-el p:nth-last-child(2) {
+	font-size: 80px;
+}
+
+/* numbers end */
+
+.phone-and-headings {
+	padding: 20px 0;
+}
+
+.section-heading {
+	padding-top: 80px;
+	padding-bottom: 30px;
+}
+
+/* section-heading end */
+
+.sub-heading,
+.dog-home,
+.form-section,
+.section-heading,
+.numbers-wrapper,
+.circle-pos,
+.statement,
+.features,
+.contact,
+footer {
+	text-align: center;
+}
+
+.pah-wrapper,
+.form-section form,
+.numbers-wrapper,
+.heading-and-circle {
+	width: 60%;
+	margin: 0 auto;
+}
+
+.pah-wrapper {
+	display: flex;
+	justify-content: center;
+}
+
+.pah-wrapper img {
+	max-height: 600px;
+	margin-top: 50px;
+}
+
+.circle-pos {
+	margin: 15px auto;
+}
+
+.circle {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background-color: #7fcbb6;
+	margin: 0 auto;
+
+}
+
+/*
+	phone-and-headings end
+*/
+
+.features {
+	background-color: #3c3e42;
+	color: #fff;
+}
+
+.dog-home p:nth-last-child(2),
+.features p:nth-last-child(2),
+.contact p:nth-last-child(2) {
+	font-weight: bold;
+}
+
+/* features end */
+
+.heading-and-circle {
+	padding: 30px 0;
+}
+
+.silver-circle {
+	width: 250px;
+	height: 250px;
+	background-color: #eeeeee;
+	border-radius: 50%;
+	padding: 150px;
+	margin-right: 50px;
+}
+
+.silver-circle-right {
+	width: 250px;
+	height: 250px;
+	background-color: #eeeeee;
+	border-radius: 50%;
+	padding: 150px;
+	margin-left: 50px;
+}
+
+.circle-and-text-left {
+	display: flex;
+	align-items: center;
+	box-sizing: border-box;
+}
+
+.circle-and-text-right {
+	display: flex;
+	align-items: center;
+	box-sizing: border-box;
+	flex-direction: row-reverse;
+}
+
+.CAT-text p:nth-last-child(2) {
+	font-size: 32px;
+}
+
+.contact,
+footer {
+	color: #fff;
+	background-color: #7fcbb6;
+}
+
+footer {
+	padding: 15px;
+}
